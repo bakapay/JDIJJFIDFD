@@ -17,6 +17,6 @@
     "return-deep-diff": "^0.2.7",
     "weather-js": "^2.0.0",
     "parse-ms": "^2.0.0",
-    "quick.db": "^7.0.0"
+    "quick.db": "6.3.2"
   }
 }
