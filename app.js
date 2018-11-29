@@ -112,10 +112,10 @@ setInterval(function() {
 client.on("guildMemberAdd", member => {
  let autorole = member.guild.roles.get("517730254178222113")
  member.addrole(autorole)
- member.guild.channels.get("517729956516855808").send("[+] `" + member + "`")});
+ member.guild.channels.get("517729956516855808").send("[+] `" + member.user.tag + "`")});
 
 client.on("guildMemberRemove", member => {
  let autorole = member.guild.roles.get("517730254178222113")
- member.guild.channels.get("517729956516855808").send("[-] `" + member + "`")});
+ member.guild.channels.get("517729956516855808").send("[-] `" + member.user.tag + "`")});
 
 client.login(process.env.BOT_TOKEN);
