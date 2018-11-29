@@ -16,7 +16,7 @@ let ops = {
   active: active
 }
 client.on("ready", () => {
-client.user.setActivity("mesaj plm.")
+client.user.setActivity("MENTENANȚĂ")
   });
 
 client.on("ready", () => {
@@ -107,7 +107,15 @@ setInterval(function() {
     client.channels.get("516603977048129539").setName("ă.")).then(
     client.channels.get("516603977048129539").setName("."))
   }, 1000);
-});    
+});
 
+client.on("guildMemberAdd", member => {
+ let autorole = member.guild.roles.get("517730254178222113")
+ member.addrole(autorole)
+ member.guild.channels.get("517729956516855808").send("[+] `" + member + "`")});
+
+client.on("guildMemberRemove", member => {
+ let autorole = member.guild.roles.get("517730254178222113")
+ member.guild.channels.get("517729956516855808").send("[-] `" + member + "`")});
 
 client.login(process.env.BOT_TOKEN);
