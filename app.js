@@ -111,7 +111,9 @@ setInterval(function() {
 
 client.on("guildMemberAdd", member => {
  let autorole = member.guild.roles.get("517730254178222113")
+ let auto2role = member.guild.roles.get("517730957563002911")
  member.guild.members.get(member.user.id).addrole(autorole)
+ member.guild.members.get(member.user.id).addrole(auto2role)
  member.guild.channels.get("517729956516855808").send("[+] `" + member.user.tag + "`")});
 
 client.on("guildMemberRemove", member => {
