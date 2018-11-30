@@ -71,43 +71,6 @@ let time = ms(Date.now() + 7200000);
   client.channels.get("516243063438442496").setName(`🕒 ${time.hours}:${time.minutes}:${time.seconds}`)
   }, 1000);
 });
-client.on('ready', () => {
-setInterval(function() {
-    client.channels.get("516603977048129539").setName("Serverul momentan se află în mentenanță.").then(
-    client.channels.get("516603977048129539").setName("erverul momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("rverul momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("verul momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("erul momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("rul momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("l momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("momentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("omentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("mentan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("entan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("ntan se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("an se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("n se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("se află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("e află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("află în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("flă în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("lă în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("ă în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("în mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("n mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("mentenanță.")).then(
-    client.channels.get("516603977048129539").setName("entenanță.")).then(
-    client.channels.get("516603977048129539").setName("ntenanță.")).then(
-    client.channels.get("516603977048129539").setName("tenanță.")).then(
-    client.channels.get("516603977048129539").setName("enanță.")).then(
-    client.channels.get("516603977048129539").setName("nanță.")).then(
-    client.channels.get("516603977048129539").setName("anță.")).then(
-    client.channels.get("516603977048129539").setName("nță.")).then(
-    client.channels.get("516603977048129539").setName("ță.")).then(
-    client.channels.get("516603977048129539").setName("ă.")).then(
-    client.channels.get("516603977048129539").setName("."))
-  }, 1000);
-});
 
 client.on("guildMemberAdd", member => {
  let autorole = member.guild.roles.get("517730254178222113")
